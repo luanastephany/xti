@@ -1,0 +1,20 @@
+a:visited {
+    color: black;
+}
+
+input[type="text"]:focus {
+    background-color: #86d6fc;
+}
+
+label{
+    transition: background-color 0.9s ease;
+}
+
+label:hover {
+    background-color:#86d6fc;
+}
+
+p:first-letter {
+    font-size:40px;
+    color: #86d6fc;
+}

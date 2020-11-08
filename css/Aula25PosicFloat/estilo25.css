@@ -1,0 +1,30 @@
+img {
+    width: 70px;
+    height: 80px;
+}
+
+p {
+    background-color: #ffebff;
+}
+
+h1, h3, p {
+    border: 1px solid pink;
+    width: 220px;
+    float: left;
+}
+ 
+.title {
+    clear: both;
+}
+
+h1 {
+    font-family: stencil regular;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+

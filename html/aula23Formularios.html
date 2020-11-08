@@ -1,0 +1,74 @@
+<html>
+
+<head>
+    <title>Formulários</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            background-color: #ffe6fa;
+        }
+
+        input {
+            margin-bottom: 10px;
+        }
+
+        fieldset {
+            border: 2px solid pink;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Method pode ser get ou post -->
+    <!--Radio é só uma opção. Checkbox são várias opções-->
+    <!--Row é espaço para baixo. Cols é para os lados (colunas)-->
+    <!--Placeholder é pro texto ficar transparente-->
+
+    <h1 style="text-align: center;">Sobre você</h1>
+    <form action="aula23Formularios.html" method="get">
+
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+            Nome: <input type="text" id="nome" placeholder="Exemplo: Luana" /><br />
+            Senha: <input type="password" id="senha" /><br />
+            Sexo: <br />
+            <input type="radio" name="sexo" value="M" />Masculino<br />
+            <input type="radio" name="sexo" value="F" />Feminino<br />
+            País: <br />
+            <select id="pais">
+                <option>Brasil</option>
+                <option>Japão</option>
+                <option>Canadá</option>
+                <option>Alemanha</option>
+                <option>Nova Zelândia</option>
+            </select> <br />
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Informações Profissionais</legend> <br />
+            Conhecimentos:<br />
+            <input type="checkbox" name="conhecimentos" value="java" />Java<br />
+            <input type="checkbox" name="conhecimentos" value="java" />SQL<br />
+            <input type="checkbox" name="conhecimentos" value="java" />JQuery<br />
+            <input type="checkbox" name="conhecimentos" value="java" />JavaScript<br />
+
+            Resumo:<br />
+            <textarea rows="6" cols="30" placeholder="Escreva seu resumo"></textarea> <br />
+
+            Currículo<br />
+            <input type="file" id="curriculo" /><br />
+
+        </fieldset>
+
+        <input type="reset" Value="Limpar" /><br />
+        <input type="button" Value="Validar formulario" /><br />
+        <input type="submit" Value="Enviar" /><br />
+
+    </form>
+</body>
+
+
+</html>

@@ -1,0 +1,18 @@
+
+/* em significa ênfase. Que nem span. Pode estar em qualqer lugar depois da div */
+
+div em {
+    color: red;
+}
+
+/* O em deve estar diretamente após a div */
+
+div > em {
+    text-decoration:underline;
+}
+
+/*Tag irmão*/
+
+p + p {
+    color: blue;
+}

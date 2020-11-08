@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+    background-image: url(../img/header.jpg);
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+}
+
+.fakeimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Arredondar a imagem lá junto do pai. Lembrar do chocolate na tela do pc. */
+.popular {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.popular img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+    transition: all 0.2s ease-in-out;  
+}
+
+.popular img:hover {
+    transform: scale(1.1);
+
+}
+
+.popular p {
+    background-color: rgba(0,0,0,0.5);
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 8px;
+    color: white;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.social {
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+
+/* Características das imagens dentro das bolinhas. */
+.social a {
+    display: flex;
+    background-color: #a1c8ff;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.social a:hover {
+    background-color: #78b0ff;   
+
+}
+
+.social a img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+
+    .leftcolumn,
+    .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }

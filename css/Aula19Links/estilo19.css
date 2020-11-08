@@ -1,0 +1,23 @@
+a.site {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    background-color: #472ab2;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+    background-color: white;
+}
+
+a img {
+    height: 50%;
+    width: 20%;
+    
+}

@@ -1,0 +1,22 @@
+/*O font-weight pode ser bold, lighter ou por número (de 100 a 900). */
+/* Existe a font-variant: small-caps */
+
+p.primeiro::before{
+    content: '🖕🖕🖕 - '
+}
+
+p.primeiro {
+    font-family:"lucida grande", "lucida sans"  monospace;
+    font-style:italic;
+    font-weight:lighter;
+    letter-spacing: normal;
+    word-spacing: 5px;
+    line-height: 20px;
+    text-align: justify;
+    text-indent: 25px;
+}
+
+p.segundo {
+    text-decoration: underline red;
+    text-transform: none;
+}

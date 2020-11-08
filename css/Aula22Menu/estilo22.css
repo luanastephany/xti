@@ -1,0 +1,59 @@
+/*Barra da parte de cima. Overflow hidden esconde o texto que passa da caixa que está menor que ele */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /*Faz os itens dentro do cabeçalho ficarem alinhados horizontalmente na parte esquerda da tela */
+  li {
+    float: left;
+  }
+  
+  /*Cor da letra, distância entre eles, alinhamento */
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /*Quando passar o mouse em cima, a cor do fundo de todas as palavras fica vermelha */
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+
+  li {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  /*Relacionado ao segundo menu. Tamanho da caixa que ele fica, a cor de fundo, o relevo da caixa, fonte */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  /*Cor da letra do segundo menu, blocos (um embaixo do outro, alinhado à esquerda */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  

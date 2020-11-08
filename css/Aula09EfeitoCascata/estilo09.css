@@ -1,0 +1,15 @@
+/* Ordem  hieráquica:
+Inline
+IDs (#)
+Classes (.)
+Elementos */
+
+div > p {
+    color:red;
+}
+
+p { 
+    color: blue;  
+}
+
+/* O !important faz todos obedecerem ele. Dá pra botar antes do ponto e vírgula */

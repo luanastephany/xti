@@ -1,0 +1,38 @@
+
+/*De dentro pra fora: content, padding, border, margin */
+
+* {
+    margin:0px;
+    padding:0px;    
+}
+
+body {
+    padding:1px;
+      
+}
+
+h1 {
+    text-align: center;
+}
+
+/* A ordem é top, right, button, left. Não pecisa descrever cada um se não quiser. Só seguir a ordem. */
+
+p.primeiro {
+    margin: 20px 50px 50px 20px;
+    padding: 40px;
+    border-width: 5px;
+    border-style: ridge;
+    border-color: red;
+}
+
+
+p.segundo { 
+    margin: 20px 50px 50px 20px;
+    padding: 40px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+/* O style da borda pode ser solid, ridge (relevo), dotted (pontilhada), dashed (tracejada), double, inset, outset. */

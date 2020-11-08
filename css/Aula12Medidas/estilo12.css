@@ -1,0 +1,14 @@
+/* O em vai mostrar tipo multiplicado. O h1 está 3x o valor de 20px. O h2 está 2x o valor de 20px. */
+
+* {
+    font-size:12px;
+    margin-left: 10px;
+}
+
+h1 {
+    font-size:3em;
+}
+
+h2 {
+    font-size: 2em;
+}
