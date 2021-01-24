@@ -1,0 +1,11 @@
+{
+    "explorer.confirmDragAndDrop": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.wordWrap": "on",
+    "workbench.colorTheme": "Eva Dark",
+    "editor.fontSize": 14,
+    "editor.fontFamily": "Fira Code",
+    "editor.formatOnSave": true,
+    "editor.fontLigatures": true,
+    "git.autofetch": true
+}
