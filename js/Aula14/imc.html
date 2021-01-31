@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+
+<body>
+    <h1>IMC = Peso / Altura² </h1>
+    <div class="image">
+        <img src="img/imc.jpg" alt="">
+    </div>
+
+
+    <form id="formulario">
+        <fieldset>
+            <legend>Cálculo de IMC</legend>
+
+            <div class="label-input">
+                <label for="kilos">Kilos:</label>
+                <input type="number" name="kilos" id="kilos">
+            </div>
+
+            <div class="label-input">
+                <label for="metros">Metros:</label>
+                <input type="number" name="metros" id="metros">
+            </div>
+
+            <div class="label-input">
+                <label for="centimetros">Cm:</label>
+                <input type="number" name="centimetros" id="centimetros">
+            </div>
+
+            <div class="label-input">
+                <label for="imc">IMC:</label>
+                <input type="number" name="imc" id="imc" disabled>
+            </div>
+
+
+            <input type="button" value="CALCULAR" class="btn" onclick="calcular()">
+
+
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    width: 100%;
+    background-color: rgb(203, 225, 247);
+}
+
+h1{
+    display: flex;
+   justify-content: center;
+   padding: 20px;
+}
+
+img{
+    width: 500px;    
+}
+
+.image{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+/*Caixa de formulário*/
+form{ 
+    padding: 25px;
+    width: 500px;
+}
+
+fieldset{
+    padding: 25px;
+    font-size: 18px;
+    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    width: 55px;
+    display: inline-flex;
+}
+
+/*Espaço entre os itens*/
+.label-input{ 
+    margin-bottom: 10px;
+}
+
+
+
+/*Botão de Calcular*/
+.btn{
+    cursor: pointer;
+    padding: 08px;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-self: center;
+}
+
