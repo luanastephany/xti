@@ -1,0 +1,32 @@
+#topo{
+    background-color: rgb(236, 232, 232);
+}
+
+h1{
+    color: rgb(123, 123, 207);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+img{
+    width: 150px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.btn{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.btn input{
+    margin: 0 10px;
+    border: solid 1px rgb(236, 232, 232);
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(123, 123, 207);
+}
