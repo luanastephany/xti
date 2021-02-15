@@ -5,7 +5,7 @@ window.onload = function () {
 
 function ligar() {
     document.getElementById("lampada").src = "img/ligada.jpg"
-    setTimeout("desligar()", 3000) //colocar função e intervalo em milissegundos
+    setTimeout(desligar, 3000) //colocar função e intervalo em milissegundos
 }
 
 function desligar() {
